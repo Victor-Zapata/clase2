@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bienvenidos al lado oscuro</title>
+  </head>
+  <body>
+    <h1>Soy un h1 y soy el <span>título</span> mas importante de la página</h1>
+    <h2>Esto es un h2</h2>
+    <h3>Esto es un h3</h3>
+    <h4>Esto es un h4</h4>
+    <h5>Esto es un h5</h5>
+    <h6>Esto es un h6</h6>
+    <p>Soy una etiqueta p y dentro mio vas a colocar párrafos</p>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus
+      aspernatur, hic neque in delectus nulla impedit et eveniet? Harum illum
+      veritatis, reprehenderit placeat aut fugiat repudiandae expedita adipisci
+      id? Ipsa?
+    </p>
+    <p><strong>Soy un párrafo con texto en negrita</strong></p>
+    <p>
+      Soy un párrafo que usa la etiqueta br <br />
+      para hacer un salto de línea
+      <b>(a "br"la vamos a utilizar mientras sepamos solo HTML)</b>.
+    </p>
+
+    <a href="https://code.visualstudio.com/" target="_blank">Soy un enlace</a
+    ><br />
+    <p>clickea la imagen</p>
+    <a href="https://code.visualstudio.com/" target="_blank">
+      <img
+        src="https://www.fundacionkonex.org/custom/web/data/imagenes/repositorio/2021/03/12/16575/2021031202544061e0e3f25c3041f849de6b510817fb34.jpg"
+        alt="Imagen de Lionel Messi"
+      />
+    </a>
+    <hr />
+
+    <h2>Lista desordenada</h2>
+    <ul>
+      <li>Hola</li>
+      <li>Hola</li>
+      <li>Hola</li>
+    </ul>
+    <h2>Lista ordenada</h2>
+    <ol class="lista-desordenada" id="lista-ol">
+      <li>Hola</li>
+      <li>Hola</li>
+      <li>Hola</li>
+    </ol>
+    <h2>Listas anidadas</h2>
+    <ol>
+      <li>
+        Soy un elemento de una lista ordenada y adentro tengo otra lista:
+        <ul>
+          <li>Hola</li>
+          <li>Hola</li>
+          <li>Hola</li>
+        </ul>
+      </li>
+      <li>
+        Soy otro elemento de la lista ordenada y adentro tengo otra lista más:
+        <ul>
+          <li>
+            Yo tambien tengo una lista adentro:
+            <ol>
+              <li>hola</li>
+              <li>hola</li>
+            </ol>
+          </li>
+        </ul>
+      </li>
+    </ol>
+    <h2>Tablas</h2>
+    <table>
+      <tr>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miercoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+      </tr>
+      <tr>
+        <td>9hs</td>
+        <td>8hs</td>
+        <td>7hs</td>
+        <td>6hs</td>
+        <td>5hs</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>9hs</td>
+        <td>8hs</td>
+        <td>7hs</td>
+        <td>6hs</td>
+        <td>5hs</td>
+      </tr>
+      <tr>
+        <td>negro</td>
+        <td>azul</td>
+        <td>blanco</td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <h2>Formularios</h2>
+
+    <form action="">
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" placeholder="Ingresa tu nombre" /> <br />
+      <br />
+
+      <label for="apellido">Apellido</label>
+      <input type="text" id="apellido" placeholder="Ingresa tu apellido" />
+      <br />
+      <br />
+
+      <label for="edad">Edad</label>
+      <input
+        type="number"
+        id="edad"
+        placeholder="Ingresa tu edad"
+        min="5"
+        max="50"
+      />
+      <br />
+      <br />
+
+      <label for="correo">Email</label>
+      <input type="email" id="correo" placeholder="Ingresa tu email" /> <br />
+      <br />
+
+      <label for="pass">Contraseña:</label>
+      <input
+        type="password"
+        id="pass"
+        placeholder="Ingresa tu contraseña"
+        required
+      />
+      <br />
+      <br />
+
+      <label for="checkbox1">Soy un input de tipo checkbox</label>
+      <input type="checkbox" id="checkbox1" /> <br />
+      <br />
+
+      <label for="checkbox2">Soy otro input de tipo checkbox</label>
+      <input type="checkbox" id="checkbox2" checked /> <br />
+      <br />
+
+      <h3>Gustos de helado favorito</h3>
+      <label for="chocolate">Chocolate</label>
+      <input type="radio" id="chocolate" name="gustos" />
+      <label for="frutilla">Frutilla</label>
+      <input type="radio" id="frutilla" name="gustos" />
+      <label for="crema-rusa">Crema Rusa</label>
+      <input type="radio" id="crema-rusa" name="gustos" /> <br />
+      <br />
+
+      ¿Jugamos?
+      <select>
+        <option value="piedra">Piedra</option>
+        <option value="papel">Papel</option>
+        <option value="tijera">Tijera</option>
+      </select>
+      <br />
+      <br />
+
+      <label for="texto">Soy un area de texto</label><br />
+      <textarea name="" id="texto" cols="30" rows="10"></textarea> <br />
+      <br />
+
+      <input type="submit" value="Soy un botón" />
+      <button type="submit">ENVIAR</button>
+
+      <input type="color" />
+    </form>
+
+    <header>
+      <nav></nav>
+    </header>
+
+    <main>
+      <section>
+        <article>
+          <div>
+            <h2>Mi opinión...</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a
+              dolor velit. Nunc sit amet facilisis nunc, at suscipit nibh.
+              Mauris sit amet lacus tellus. Maecenas fermentum libero eu lacinia
+              hendrerit. Curabitur pellentesque convallis nulla, eu cursus orci
+              euismod in. Duis ac odio lectus. Aliquam erat volutpat. Praesent
+              et interdum felis. Maecenas a aliquet lacus. Nunc lacinia dictum
+              orci et molestie. Nunc dignissim auctor quam eu aliquet. Nulla
+              euismod in felis sit amet porta. Orci varius natoque penatibus et
+              magnis dis parturient montes, nascetur ridiculus mus. Nullam et
+              auctor dui. Duis placerat leo vel sapien mollis, quis pellentesque
+              dolor vulputate. Donec accumsan elementum massa a placerat.
+              Integer non fringilla orci. Proin blandit sagittis augue. Morbi
+              ullamcorper est eget mi viverra ullamcorper. Maecenas varius est
+              ac lobortis varius.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section>
+        <div>
+          <h3>Cómo es viajar a Qatar</h3>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/xEIjxOav9dY"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section>
+        <div>
+          <h4>Estadio Kempes</h4>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3406.641902256343!2d-64.24830168424948!3d-31.36885960109491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329ecc4516ee49%3A0x52b97a2b4d3699bf!2sEstadio%20Mario%20Alberto%20Kempes!5e0!3m2!1ses-419!2sar!4v1669163637188!5m2!1ses-419!2sar"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+
+      <img
+        width="400"
+        src="../d6d95b70-6a82-42de-9a2f-501d9cea2ff9.jpg"
+        alt=""
+      />
+      <video width="400" height="300" controls>
+        <source src="../2022-03-06 01-21-37.mp4" />
+      </video>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
